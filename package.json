@@ -1,0 +1,29 @@
+{
+  "name": "polymer-pwa-test",
+  "version": "0.0.0",
+  "description": "PWA with Polymer, based on a fork of Shop",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "polymer test",
+    "test:pwa": "lighthouse http://localhost:8081 --view --output-path reports/pwa",
+    "install": "bower install",
+    "start": "polymer serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/merlosy/polymer-pwa-test"
+  },
+  "keywords": [
+    "pwa",
+    "polymer"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "polymer-cli": "^1.1.0"
+  }
+}
