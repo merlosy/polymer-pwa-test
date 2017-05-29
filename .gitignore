@@ -1,3 +1,7 @@
+# Dependencies
 bower_components
-build
 node_modules
+
+# Project output
+reports/*
+build

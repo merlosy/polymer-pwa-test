@@ -8,9 +8,10 @@
   },
   "scripts": {
     "test": "polymer test",
-    "test:pwa": "lighthouse http://localhost:8081 --view --output-path reports/pwa",
+    "test:pwa": "lighthouse http://localhost:8081 --output-path=reports/lighthouse.html",
     "install": "bower install",
-    "start": "polymer serve --open"
+    "start": "polymer serve --open",
+    "build": "polymer build"
   },
   "repository": {
     "type": "git",

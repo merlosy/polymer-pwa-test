@@ -1,37 +1,29 @@
-# SHOP
+# SHOP (npm-ified)
+
+Use common npm commands to run [Shop](https://github.com/Polymer/shop) PWA with Polymer 2.0, with additional [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 
 ### Setup
 
-##### Prerequisites
+```
+npm i
+```
 
-Install [polymer-cli](https://github.com/Polymer/polymer-cli):
-(Need at least npm v0.3.0)
-
-    npm install -g polymer-cli
-
-
-##### Setup
-    # Using CLI
-    mkdir shop
-    cd shop
-    polymer init shop
-    
-    # Or cloning direct from GitHub
-    git clone https://github.com/Polymer/shop.git
-    cd shop
-    bower install
 
 ### Start the development server
 
-    polymer serve
+    npm start
 
 ### Run web-component-tester tests
 
-    polymer test
+    npm test
+
+### Lighthouse
+
+    npm run test:pwa
 
 ### Build
 
-    polymer build
+    npm build
 
 ### Test the build
 
