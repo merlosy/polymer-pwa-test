@@ -5,3 +5,4 @@ node_modules
 # Project output
 reports/*
 build
+npm-debug.log
